@@ -7,4 +7,3 @@ id = "typescriptfunction"
 description = "A Salesforce Function"
 type = "function"
 salesforce-api-version = "58.0"
-
