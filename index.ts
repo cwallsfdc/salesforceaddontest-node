@@ -22,5 +22,6 @@ export default async function execute(
   const results = await context.org.dataApi.query('SELECT Id, Name FROM Account');
   logger.info(JSON.stringify(results));
 
+
   return `Hello Org ${context.org.id}, User ${context.org.user.username}.  Your Org has ${results.records.length} Account records!`;
 }
